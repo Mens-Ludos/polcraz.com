@@ -1,0 +1,24 @@
+{
+  "name": "@polcraz/web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "devDependencies": {
+    "@headlessui/vue": "^1.7.8",
+    "@heroicons/vue": "^2.0.14",
+    "@polcraz/tailwind-preset": "workspace:*",
+    "@polcraz/tsconfig": "workspace:*",
+    "@polcraz/ui": "workspace:*",
+    "@nuxtjs/tailwindcss": "^6.3.1",
+    "nuxt": "3.1.1",
+    "unplugin-vue-components": "^0.23.0"
+  }
+}

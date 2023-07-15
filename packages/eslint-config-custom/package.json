@@ -1,0 +1,17 @@
+{
+  "name": "@polcraz/eslint-config",
+  "version": "0.0.0",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "@antfu/eslint-config": "^0.35.1",
+    "eslint": "^8.33.0",
+    "eslint-config-turbo": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
